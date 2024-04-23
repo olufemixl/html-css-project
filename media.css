@@ -1,0 +1,179 @@
+.navbar{
+    width: 100%;
+}
+
+.second-nav ,.second-page-nav2{
+    margin-right: 0;
+    width: 100%;
+    overflow-x: scroll;
+    white-space: nowrap;
+}
+
+.second-nav::-webkit-scrollbar-thumb{
+    width: 5px;
+    background-color: rgb(135, 138, 141);
+    border-radius: 10px;
+}
+
+.second-nav-div1{    
+    width: 100vw;
+    padding-left: 0 !important;
+}
+.logo{
+    width: 60%;
+}
+.how{
+    display: none;
+}
+.nav-signin{
+    width: 40%;
+}
+.nav-signin a{
+    font-size: 8px;
+}
+.nav-signin button{
+display: none;
+}
+.second-nav{
+    padding-left: none;
+}
+.landing-page{
+    margin-bottom: 0;
+    background-image: url("./images/nasa-1080.webp");
+    background-position: center;
+    height: 100vh;
+}
+.landing-page video{
+    display: none;
+}
+.landing-words h1{
+    font-size: 30px;  
+}
+.landing-btn{
+    margin-top: 25%;
+    padding-left: 10%;
+    flex-direction: column;
+    gap: 10px;
+    white-space: nowrap;
+}
+.second-page, .seventh-page{
+    padding-top: 0;
+    background: black;
+    height: 100%;
+}
+.second-page-nav{
+    height: 20%;
+    width: 100%;
+    flex-direction: column;
+}
+.second-page-nav2::-webkit-scrollbar-thumb{
+    width: 10px;
+    background-color: rgb(135, 138, 141);
+    border-radius: 10px;
+}
+.used{
+    text-align: center;
+}
+.second-page-nav2{
+    align-items: center;
+    width: 100%;
+}
+.big-text{
+    margin: 0;
+    font-size: 30px;
+}
+
+.second-main-left-grid{
+    flex-direction: column;
+}
+.second-main-right-content, .fourth-main-right{
+    display: none;
+}
+.mobile-img{
+    display: block;
+   
+}
+.mobile-img img{
+    margin-left: -50%;
+    height: 100%;
+    width: 100%;
+    background-size: cover;
+    background-position: center;
+}
+.third-page{
+    background-color: black;
+    padding: 5% 2%;
+    height: 50vh;
+   flex-direction: column;
+   
+}
+/* .effect{
+    display: none;
+} */
+
+.third-page-left{
+    padding-left: 0;
+}
+.third-page-left img{
+    width:100%;
+    height: 200px;
+}
+
+.third-page-right{
+    width: 100%;
+    flex-direction: row;
+}
+.third-page-right-col-1,.third-page-right-col-2{
+    display: flex;
+}
+.third-page-right img{
+    width: 86px;
+    height: 100px;
+}
+.secondChild{
+    display: none;
+    }
+
+.fourth-page{
+    /* padding: 10% 0 10% 0; */
+    height: 100%;
+}
+.fourth-main h1{
+    white-space: wrap;
+}
+.fourth-main-left-grid{
+    flex-direction: column;
+}
+.fifth-page{
+    height: 100%;
+}
+.sixth-page{
+    height: 100%;
+    flex-direction: column;
+}
+.ninth-page{
+    background: black;
+}
+.ninth-page p{
+    font-size: 15px;
+}
+.first-item h1{
+    font-size: 30px;
+}
+.hiddenOnMedia{
+    display: none;
+}
+.appstore{
+    display: flex;
+    align-items: center;
+    gap: 2%;
+}
+.footer-first{
+    display: none;
+}
+.footer-second{
+    display: none;
+}
+.footer-third{
+   line-height: 1.5;
+}

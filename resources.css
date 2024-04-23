@@ -1,0 +1,79 @@
+.re-landingP{
+    background-image: url("./images/BG1-0fb983c1.webp");
+    background-position: center;
+    background-size: cover;
+    height: 70vh;
+    padding-top: 10%;
+}
+.re-secondP{
+    padding: 3% 0;
+}
+.re-secondP h3{
+padding-left: 10%;
+/* padding-bottom: 2%; */
+}
+
+.fifthP-snd{
+    padding-top: 0;
+}
+.logo-img{
+    height: 250px;
+    width: 400px;
+}
+.re-img{
+    width: 615px;
+    height: 300px;
+}
+.logo-text{
+    height: 50%;
+    white-space: nowrap;
+    padding: 8% 0;
+    border-bottom: 0.1px solid lightgrey;
+}
+.logo-header{
+font-weight: 700;
+}
+.logo-header:hover{
+    cursor: pointer;
+    text-decoration: underline;
+}
+.logo-para{
+    padding-top: 2%;
+    font-weight: 500;
+}
+.fifthP-btm-box1{
+    padding: 3% 0;
+    
+}
+.fifthP-btn a{
+    font-weight: 500;
+    background-color: #f1f1f1;
+    color: black;
+  text-decoration: none;
+  display: inline-block;
+  padding: 8px 16px;
+}
+.fifthP-btn a:hover{
+    background-color: #139FF0;
+    color: #f1f1f1;
+}
+@media only screen and (max-width: 800px) {
+    .re-landingP{
+padding-top: 50%;
+    }
+    .fifthP-btm-box1{
+        padding: 5%;
+    }
+    .logo-img{
+        padding-top: 15%;
+        height: 250px;
+        width: 330px;
+    }
+    .logo-header{
+        white-space: wrap;
+    }
+    .logo-text small{
+        white-space: wrap;
+    }
+   
+}

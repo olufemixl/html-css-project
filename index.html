@@ -1,0 +1,837 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="media.css" media="(max-width:800px)">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    
+    <title>freelancer</title>
+    <link rel="icon" href="images/freelancer-logo.svg">
+</head>
+
+<body>
+    <nav class="navbar sticky-top bg-body-tertiary d-flex justify-content-evenly">
+        <div class="logo d-flex align-items-center">
+            <a class="navbar-brand" href="#"><img width="40%" src="images/freelancer-logo.svg" alt=""></a>
+            <div class="how"><a class="navbar-brand fs-6" href="works.html">How it works</a>
+                <a class="navbar-brand fs-6" href="">Browse Jobs</a>
+            </div>
+        </div>
+
+        <div class="nav-signin">
+            <a class="navbar-brand fs-6" href="signin.html">Log In</a>
+            <a class="navbar-brand fs-6" href="signup.html">Sign Up</a>
+            <button style="background-color: #E60278;" type="button" class="btn fw-bold text-light btn-sm">Post a
+                Project</button>
+        </div>
+    </nav>
+    <nav class="second-nav navbar navbar-expand navbar-dark bg-dark">
+        <div class=" second-nav-div1 d-flex">
+            <div class="collapse navbar-collapse" id="navbarNavDarkDropdown">
+                <ul class="navbar-nav">
+                    <li class="nav-item dropdown ">
+                        <button style="font-size:15px;color: #fcfcfd;" class="btn btn-dark snd-nav"
+                            data-bs-toggle="dropdown" aria-expanded="false">
+                            Find Jobs
+                        </button>
+                        <ul style="font-size:15px;color: #fcfcfd;" class="dropdown-menu dropdown-menu-light drp-list">
+                            <li><a class="dropdown-item" href="#">By Skills <i
+                                        class="fa-solid fa-chevron-right ms-5"></i></a></li>
+                            <li><a class="dropdown-item" href="#">By Language <i
+                                        class="fa-solid fa-chevron-right ms-3"></i></a></li>
+                            <li><a class="dropdown-item" href="#">Featured Jobs <i
+                                        class="fa-solid fa-chevron-right ms-2"></i></a></li>
+                            <li><a class="dropdown-item" href="#">Find Contests <i
+                                        class="fa-solid fa-chevron-right ms-2"></i></a></li>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+
+            <div class="collapse navbar-collapse" id="navbarNavDarkDropdown">
+                <ul class="navbar-nav">
+                    <li class="nav-item dropdown">
+                        <button style="font-size:15px;color: #fcfcfd;" class="btn btn-dark" data-bs-toggle="dropdown"
+                            aria-expanded="false">
+                            Hire freelancers
+                        </button>
+                        <ul class="dropdown-menu dropdown-menu-light">
+                            <li><a class="dropdown-item" href="#">By Skills <i
+                                        class="fa-solid fa-chevron-right ms-5"></i></a></li>
+                            <li><a class="dropdown-item" href="#">By Location <i
+                                        class="fa-solid fa-chevron-right ms-4"></i></a></li>
+                            <li><a class="dropdown-item" href="#">Skills Categories</a></li>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+            <div class="collapse navbar-collapse" id="navbarNavDarkDropdown">
+                <ul class="navbar-nav">
+                    <li class="nav-item dropdown">
+                        <a style="color: #fcfcfd; text-decoration: none;font-size:15px;" class="ps-4" href="getideas.html">Get Ideas</a>
+                        <ul class="dropdown-menu dropdown-menu-light">
+                            <li><a class="dropdown-item" href="#">Get Web Design Ideas</a></li>
+                            <li><a class="dropdown-item" href="#">Get Mobile App Design Ideas</a></li>
+                            <li><a class="dropdown-item" href="#">Get Graphic Design Ideas</a></li>
+                            <li><a class="dropdown-item" href="#">Get Logo Graphic Design Ideas</a></li>
+                            <li><a class="dropdown-item" href="#">Get 3D Modelling Ideas</a></li>
+                            <li><a class="dropdown-item" href="#">Get Illustration Ideas</a></li>
+                            <li><a class="dropdown-item" href="#">Get Branding Ideas</a></li>
+                            <li><a class="dropdown-item" href="#">Get Product Design Ideas</a></li>
+                            <li><a class="dropdown-item" href="#">Get Web Packaging Design Ideas</a></li>
+                            <li><a class="dropdown-item" href="#">Get Wordpress Ideas</a></li>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+            <div class="collapse navbar-collapse " id="navbarNavDarkDropdown">
+                <ul class="navbar-nav">
+                    <li class="nav-item dropdown">
+                        <a style="color: #fcfcfd; text-decoration: none;font-size:15px;" class="ps-4" href="about.html">About</a>
+                        <ul class="dropdown-menu dropdown-menu-light">
+                            <li><a class="dropdown-item" href="#">Enterprise</a></li>
+                            <li><a class="dropdown-item" href="#">Membership</a></li>
+                            <li><a class="dropdown-item" href="#">Preffered freelancer Program</a></li>
+                            <li><a class="dropdown-item" href="#">Get verified</a></li>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+            <div class="collapse navbar-collapse" id="navbarNavDarkDropdown">
+                <ul class="navbar-nav">
+                    <li class="nav-item dropdown">
+                        <a style="color: #fcfcfd; text-decoration: none;font-size:15px;" class="ps-4" href="resources.html">Resources</a>
+                        
+                        <ul class="dropdown-menu dropdown-menu-light">
+                            <li><a class="dropdown-item" href="#">What is Adope Photoshop</a></li>
+                            <li><a class="dropdown-item" href="#">What is Android App Development</a></li>
+                            <li><a class="dropdown-item" href="#">What is Article Writin</a></li>
+                            <li><a class="dropdown-item" href="#">What is Data Entry</a></li>
+                            <li><a class="dropdown-item" href="#">What is Graphic Design</a></li>
+                            <li><a class="dropdown-item" href="#">What is HTML</a></li>
+                            <li><a class="dropdown-item" href="#">What is Internet Marketing</a></li>
+                            <li><a class="dropdown-item" href="#">What is iPhone App Development</a></li>
+                            <li><a class="dropdown-item" href="#">What is JavaScript</a></li>
+                            <li><a class="dropdown-item" href="#">What is Logo Design</a></li>
+                            <li><a class="dropdown-item" href="#">What is Mobile App Development</a></li>
+                            <li><a class="dropdown-item" href="#">What is PHP</a></li>
+                            <li><a class="dropdown-item" href="#">What is Python</a></li>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <div class="landing-page">
+        <div class="landing">
+            <video class="img-fluid" autoplay loop muted>
+                <source src="https://www.f-cdn.com/assets/main/en/assets/home/video/ai-contest-hero.mp4"
+                    type="video/mp4" />
+            </video>
+        </div>
+        <div class="landing-words">
+            <h1>Hire the best <br> freelancers for any <br> job, online.</h1>
+            
+            <ul>
+                <li>World's largest freelance marketplace</li>
+                <li>Any job you can possibly think of</li>
+                <li>Save up to 90% & get quotes for free</li>
+                <li>Pay only when you're 100% happy</li>
+            </ul>
+            <div class="landing-btn d-flex">
+                <button style="background-color: #E60278;" type="button" class="btn  text-light btn-lg  me-3">Hire a
+                    freelancer</button>
+                <button type="button" class="btn btn-bg-transparent text-light btn-outline-light btn-lg">Earn money
+                    Freelancing </button>
+            </div>
+            
+        </div>
+    </div>
+    <div class="second-page">
+        <div class="second-page-nav">
+            <div class="used">
+                <span style="white-space: nowrap;" class="text-light fs-5">As used by</span>
+            </div>   
+            <div class="second-page-nav2">
+                <span><img width="70px" src="./images/amazon_logo2-darkmode.svg" alt=""></span>
+                <span><img width="80px" src="./images/facebook-corporate-logo2-darkmode.svg" alt=""></span>
+                <span><img width="70px" src="./images/deloitte-logo2-darkmode.svg" alt=""></span>
+                <span><img width="70px" src="./images/nasa-logo3.svg" alt=""></span>
+                <span><img width="70px" src="./images/ibm-logo2-darkmode.svg" alt=""></span>
+                <span><img width="70px" src="./images/telstra-logo-darkmode.svg" alt=""></span>
+                <span><img width="70px" src="./images/airbus-logo2-darkmode.svg" alt=""></span>
+                <span><img width="70px" src="./images/fujitsu-logo-darkmode.svg" alt=""></span>
+                <span><img width="70px" src="./images/google-logo.svg" alt=""></span>
+            </div>
+            
+        </div>
+        <div class="second-main text-light ps-3">
+            <h1 class=" big-text fw-bold"><span style="color: #E60278;" class="">Make it real <br></span>with
+                Freelancer</h1>
+            <div class="second-main-body">
+                <div class="second-main-left">
+                    <div class="second-main-bigger-container1">
+                        <div class="second-main-left-grid d-flex gap-5">
+                            <div class="second-main-left-grid1">
+                                <h3>The best talent</h3>
+                                <p>Discover reliable professionals by <br> exploring their portfolios and <br> immersing
+                                    yourself in the feedback <br> shared on their profiles.</p>
+                            </div>
+                            <div class="second-main-left-grid1">
+                                <h3>Fast bids</h3>
+                                <p>Get quick, no-obligation quotes from <br> skilled freelancers. 80% of jobs <br>
+                                    receive bids within 60 seconds. Your <br> idea is just moments from reality.</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="second-main-left-grid d-flex gap-5">
+                        <div class="second-main-left-grid1">
+                            <h3 class="">Quality work</h3>
+                            <p>With Freelancer's talent pool of over <br> 60 million professionals at your <br>
+                                fingertips, you'll find quality talent to<br>get what you need done.</p>
+                        </div>
+                        <div class="second-main-left-grid1">
+                            <h3>Be in control</h3>
+                            <p>Stay in the loop while on the move. <br> Chat with your freelancers and get <br> real
+                                time updates with our mobile <br> app. Anytime, anywhere.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="second-main-right">
+                    <div class="second-main-right-content">
+                        <img width="100%" src="./images/make-it-real-cards-m.png" alt="">
+                    </div>
+                </div>
+            </div>
+            <div class="mobile-img">
+                <img src="./images/make-it-real-bg-ld.webp" alt="">
+            </div>
+            <h3 class="reality">Make your dreams a reality.</h3>
+            <span style="color: #E60278;"><a style="color: #E60278; text-decoration-color: #E60278;"
+                    class="fw-bold fs-5 link-offset-2 link-offset-3-hover link-underline link-underline-opacity-0 link-underline-opacity-75-hover"
+                    href="#">
+                    Get started now
+                </a><i class="fa-solid fa-arrow-right"></i></span>
+
+        </div>
+    </div>
+    <div class="third-page">
+        <div class="third-page-left effect">
+            <img height="440px" width="600px" src="./images/ai-generated-art-v2.webp" alt="">
+            <div class="show">
+                <div class="third-page-left-content secondChild">
+                    <div class="third-page-left-content-adv pt-3">
+                        <h6>AI generated art.</h6>
+                        <p>$200 USD in 7 days.</p>
+                    </div>
+                    <div class="third-page-left-content-adv-btn">
+                        <button style="background-color: #E60278;" type="button"
+                            class="btn fw-bold text-light btn-sm">Discover more <i
+                                class="ps-5 fa-solid fa-chevron-right"></i></button>
+                    </div>
+                </div>
+            </div>
+            
+        </div>
+        <div class="third-page-right d-flex">
+            <div class="third-page-right-col-1">
+                <div class="third-page-right-col-1-adv effect">
+                    <img height="220px" width="250px" src="./images/wordpress-website-v2.webp" alt="">
+                    <div class="show">
+                        <div
+                        class="third-page-right-col-1-adv-content secondChild">
+                        <div class="third-page-right-content-adv pt-2">
+                            <h6>Wordpress website.</h6>
+                            <p>$125 USD in 1 day.</p>
+                        </div>
+                        <div class="third-page-left-content-adv-btn">
+                            <button style="background-color: #E60278;" type="button"
+                                class="btn fw-bold text-light btn-sm">Discover more <i
+                                    class="ps-2 fa-solid fa-chevron-right"></i>
+                            </button>
+                        </div>
+                    </div>
+                    </div>
+                    
+                </div>
+                <div class="third-page-right-col-1-adv effect">
+                    <img height="220px" width="250px" src="./images/packaging-design-v2.webp" alt="">
+                    <div class="show">
+                        <div
+                        class="third-page-right-content-adv secondChild">
+                        <div class="third-page-left-content-adv pt-2">
+                            <h6>Packaging design.</h6>
+                            <p>$2500 USD in 30 days.</p>
+                        </div>
+                        <div class="third-page-left-content-adv-btn">
+                            <button style="background-color: #E60278;" type="button"
+                                class="btn fw-bold text-light btn-sm">Discover more <i
+                                    class="ps-3 fa-solid fa-chevron-right"></i>
+                            </button>
+                        </div>
+                    </div>
+                    </div>              
+                </div>
+
+            </div>
+            <div class="third-page-right-col-2">
+                <div class="third-page-right-col-2-adv effect">
+                    <img height="220px" width="250px" src="./images/interior-3d-model-v2.webp" alt="">
+                    <div class="show">
+                        <div
+                        class="third-page-right-content-adv secondChild">
+                        <div class="third-page-left-content-adv pt-2">
+                            <h6>Interior 3D model.</h6>
+                            <p>$350 USD in 7 days.</p>
+                        </div>
+                        <div class="third-page-left-content-adv-btn">
+                            <button style="background-color: #E60278;" type="button"
+                                class="btn fw-bold text-light btn-sm">Discover more <i
+                                    class="ps-3 fa-solid fa-chevron-right"></i>
+                            </button>
+                        </div>
+                    </div>
+                    </div>
+                    
+
+                </div>
+                <div class="third-page-right-col-2-adv effect">
+                    <img height="220px" width="250px" src="./images/mobile-app-v2.webp" alt="">
+                    <div class="show">
+                        <div
+                        class="third-page-right-content-adv secondChild">
+                        <div class="third-page-left-content-adv pt-2">
+                            <h6>Mobile app.</h6>
+                            <p>$21000 USD in 60 days.</p>
+                        </div>
+                        <div class="third-page-left-content-adv-btn">
+                            <button style="background-color: #E60278;" type="button"
+                                class="btn fw-bold text-light btn-sm">Discover more <i
+                                    class="ps-3 fa-solid fa-chevron-right"></i>
+                            </button>
+                        </div>
+                    </div>
+                    </div>         
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="fourth-page">
+        <div class="fourth-main text-light ps-3">
+            <h1 class=" big-text fw-bold mb-5">Tap into a<span style="color: #E60278;" class=""><br>global talent
+                    network</span></h1>
+            <div class="fourth-main-body d-flex gap-5">
+                <div class="fourth-main-left">
+                    <div class="fourth-main-bigger-container1">
+                        <div class="fourth-main-left-grid d-flex gap-5 pt-3">
+                            <div class="fourth-main-left-grid1">
+                                <h3>Post your job</h3>
+                                <p>It's free and easy! Get lots of <br> competitive bids that suit your <br> budget in
+                                    minutes. Start making <br> your dreams reality.</p>
+                            </div>
+                            <div class="fourth-main-left-grid1 ms-2">
+                                <h3>Choose freelancers</h3>
+                                <p>No job is too big or complex. We've <br> got freelancers for jobs of any size <br>
+                                    or budget, across 2700+ skills. Let <br> our talent bring your ideas to life.</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="fourth-main-left-grid d-flex gap-5 pt-3">
+                        <div class="fourth-main-left-grid1">
+                            <h3 class="">Pay safely</h3>
+                            <p>Only pay for work when you are <br> 100% satisfied with the outcome. <br>
+                                Our milestone payment system<br>protects you every step of the way.</p>
+                        </div>
+                        <div class="fourth-main-left-grid1">
+                            <h3>We're here to help</h3>
+                            <p>Your time is precious. Let our team <br> of expert recruiters and co-pilots <br> save you
+                                time finding talent, even <br> managing your job if needed.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="fourth-main-right">
+                    <div class="fourth-main-right-content pt-3">
+                        <img height="200px" width="100%" src="./images/global-talent-cards-m.png" alt="">
+                    </div>
+                </div>
+               
+            </div>
+            <div class="mobile-img">
+                <img src="./images/global-talent-bg-ld.webp" alt="">
+                <h3 class="mt-5">Create the future.</h3>
+            <span style="color: #E60278;"><a style="color: #E60278; text-decoration-color: #E60278;"
+                    class="fw-bold fs-5 link-offset-2 link-offset-3-hover link-underline link-underline-opacity-0 link-underline-opacity-75-hover"
+                    href="#">
+                    Get started now
+                </a><i class="fa-solid fa-arrow-right"></i></span>
+            </div>
+            
+
+        </div>
+    </div>
+    <div class="second-page fifth-page">
+        <div class="second-page-nav">
+            <div class="used">
+                <span style="white-space: nowrap;" class="text-light fs-5">As used by</span>
+            </div>  
+            <div class="second-page-nav2  px2">
+                <span><img width="70px" height="20px" src="./images/the-new-york-times-darkmode.svg" alt=""></span>
+                <span><img width="80px" src="./images/cnbc-darkmode.svg" alt=""></span>
+                <span><img width="90px" height="10px" src="./images/wall-street-journal-darkmode.svg" alt="">/</span>
+                <span><img width="70px" height="10px" src="./images/cnn-darkmode.svg" alt=""></span>
+                <span><img width="70px" src="./images/bloomberg-darkmode.svg" alt=""></span>
+                <span><img width="70px" src="./images/yahoo-finance-darkmode.svg" alt=""></span>
+                <span><img width="70px" height="10px" src="./images/business-insider-darkmode.svg" alt=""></span>
+                <span><img width="70px" src="./images/forbes-darkmode.svg" alt=""></span>
+            </div>
+            
+        </div>
+        <div class="third-page">
+            <div class="third-page-right d-flex">
+                <div class="third-page-right-col-1">
+                    <div class="third-page-right-col-1-adv effect ">
+                        <img height="200px" width="250px" src="./images/product-3d-modelling-v2.webp" alt="">
+                        <div
+                            class="third-page-right-col-1-adv-content secondChild show">
+                            <div class="third-page-right-content-adv pt-2">
+                                <h6>Wordpress website.</h6>
+                                <p>$125 USD in 1 day.</p>
+                            </div>
+                            <div class="third-page-left-content-adv-btn">
+                                <button style="background-color: #E60278;" type="button"
+                                    class="btn fw-bold text-light btn-sm">Discover more <i
+                                        class="ps-2 fa-solid fa-chevron-right"></i>
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="third-page-right-col-1-adv effect">
+                        <img height="200px" width="250px" src="./images/album-cover-v2.webp" alt="">
+                        <div
+                            class="third-page-right-content-adv secondChild show">
+                            <div class="third-page-left-content-adv pt-2">
+                                <h6>Packaging design.</h6>
+                                <p>$2500 USD in 30 days.</p>
+                            </div>
+                            <div class="third-page-left-content-adv-btn">
+                                <button style="background-color: #E60278;" type="button"
+                                    class="btn fw-bold text-light btn-sm">Discover more <i
+                                        class="ps-3 fa-solid fa-chevron-right"></i>
+                                </button>
+
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+                <div class="third-page-right-col-2">
+                    <div class="third-page-right-col-2-adv effect">
+                        <img height="200px" width="250px" src="./images/book-cover-design-v2.jpg" alt="">
+                        <div
+                            class="third-page-right-content-adv secondChild show">
+                            <div class="third-page-left-content-adv pt-2">
+                                <h6>Interior 3D model.</h6>
+                                <p>$350 USD in 7 days.</p>
+                            </div>
+                            <div class="third-page-left-content-adv-btn">
+                                <button style="background-color: #E60278;" type="button"
+                                    class="btn fw-bold text-light btn-sm">Discover more <i
+                                        class="ps-3 fa-solid fa-chevron-right"></i>
+                                </button>
+                            </div>
+                        </div>
+
+                    </div>
+                    <div class="third-page-right-col-2-adv effect">
+                        <img height="200px" width="250px" src="./images/ai-generated-illustration-v3.webp" alt="">
+                        <div
+                            class="third-page-right-content-adv secondChild show">
+                            <div class="third-page-left-content-adv pt-2">
+                                <h6>Mobile app.</h6>
+                                <p>$21000 USD in 60 days.</p>
+                            </div>
+                            <div class="third-page-left-content-adv-btn">
+                                <button style="background-color: #E60278;" type="button"
+                                    class="btn fw-bold text-light btn-sm">Discover more <i
+                                        class="ps-3 fa-solid fa-chevron-right"></i>
+                                </button>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="third-page-left effect re-style">
+                <img height="400px" width="500px" src="./images/character-illustration-v2.webp" alt="">
+                <div
+                    class="third-page-left-content secondChild show">
+                    <div class="third-page-left-content-adv pt-3">
+                        <h6>AI generated art.</h6>
+                        <p>$200 USD in 7 days.</p>
+                    </div>
+                    <div class="third-page-left-content-adv-btn">
+                        <button style="background-color: #E60278;" type="button"
+                            class="btn fw-bold text-light btn-sm">Discover more <i
+                                class="ps-5 fa-solid fa-chevron-right"></i></button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="sixth-page">
+        <div class="sixth-page-left">
+            <h1 class="text-light p-3">Get work done in <br> <span style="color: #E60278;">over 2700</span>different <br>
+                categories</h1>
+        </div>
+        <div class="sixth-page-right d-flex gap-4">
+            <div class="sixth-page-right1">
+                <ul>
+                    <li><a href="">website Design</a></li>
+                    <li><a href="">Mobile Apps</a></li>
+                    <li><a href="">Android Apps</a></li>
+                    <li><a href="">iPhone Apps</a></li>
+                    <li><a href="">Software Architecture</a></li>
+                    <li><a href="">Graphic Design</a></li>
+                    <li><a href="">Logo Design</a></li>
+                    <li><a href="">Public Relation</a></li>
+                    <li><a href="">Logistics</a></li>
+                    <li><a href="">Proofreading</a></li>
+                    <li><a href="">Translation</a></li>
+                    <li><a href="">Research</a></li>
+                </ul>
+            </div>
+            <div class="sixth-page-right1">
+                <ul>
+                    <li><a href="">Research Writing</a></li>
+                    <li><a href="">Article Writing</a></li>
+                    <li><a href="">Web Scraping</a></li>
+                    <li><a href="">HTML</a></li>
+                    <li><a href="">CSS</a></li>
+                    <li><a href="">HTML 5</a></li>
+                    <li><a href="">Javascript</a></li>
+                    <li><a href="">Data Processing</a></li>
+                    <li><a href="">Python</a></li>
+                    <li><a href="">Wordpress</a></li>
+                    <li><a href="">Web Search</a></li>
+                    <li><a href="">Finance</a></li>
+                </ul>
+            </div>
+            <div class="sixth-page-right1 hiddenOnMedia">
+                <ul>
+                    <li><a href="">Legal</a></li>
+                    <li><a href="">Linux</a></li>
+                    <li><a href="">Manufacturing</a></li>
+                    <li><a href="">Data Entry</a></li>
+                    <li><a href="">Content Writing</a></li>
+                    <li><a href="">Marketing</a></li>
+                    <li><a href="">Exel</a></li>
+                    <li><a href="">Ghost Writing</a></li>
+                    <li><a href="">Copywriting</a></li>
+                    <li><a href="">Accounting</a></li>
+                    <li><a href="">MySQL</a></li>
+                    <li><a href="">C++ Programming</a></li>
+                </ul>
+            </div>
+            <div class="sixth-page-right1 hiddenOnMedia">
+                <ul>
+                    <li><a href="">Banner Design</a></li>
+                    <li><a href="">Illustration</a></li>
+                    <li><a href="">Link Building</a></li>
+                    <li><a href="">C# Programming</a></li>
+                    <li><a href="">PHP</a></li>
+                    <li><a href="">3D Modelling</a></li>
+                    <li><a href="">Photoshop</a></li>
+                    <li><a href="">Technical Writing</a></li>
+                    <li><a href="">Blogging</a></li>
+                    <li><a href="">Internet Marketing</a></li>
+                    <li><a href="">eCommerce</a></li>
+                    <li></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <div class="seventh-page px-5">
+        <div class="second-main text-light ps-3">
+            <h1 class=" big-text fw-bold pt-5">Get your business<span style="color: #E60278;" class=""><br>ready for
+                    AI</span></h1>
+            <div class="second-main-body d-flex">
+                <div class="second-main-left me-5">
+                    <div class="second-main-bigger-container1">
+                        <div class="second-main-left-grid d-flex gap-5">
+                            <div class="second-main-left-grid1">
+                                <h3>Top AI specialists</h3>
+                                <p>Discover reliable professionals by <br> exploring their portfolios and <br> immersing
+                                    yourself in the feedback <br> shared on their profiles.</p>
+                            </div>
+                            <div class="second-main-left-grid1">
+                                <h3>Get better results</h3>
+                                <p>Get quick, no-obligation quotes from <br> skilled freelancers. 80% of jobs <br>
+                                    receive bids within 60 seconds. Your <br> idea is just moments from reality.</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="second-main-left-grid d-flex gap-5">
+                        <div class="second-main-left-grid1">
+                            <h3 class="">Quality work</h3>
+                            <p>With Freelancer's talent pool of over <br> 60 million professionals at your <br>
+                                fingertips, you'll find quality talent to<br>get what you need done.</p>
+                        </div>
+                        <div class="second-main-left-grid1">
+                            <h3>Be in control</h3>
+                            <p>Stay in the loop while on the move. <br> Chat with your freelancers and get <br> real
+                                time updates with our mobile <br> app. Anytime, anywhere.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="second-main-right ms-5 w-25 hiddenOnMedia">
+                    <div class="ps-5 ">
+                        <img height="300px" width="100%" src="./images/ai-business-cards-m.png" alt="">
+                    </div>
+                </div>
+            </div>
+            <h3 class="mt-5">Is your business AI-ready?</h3>
+            <span style="color: #E60278;"><a style="color: #E60278; text-decoration-color: #E60278;"
+                    class="fw-bold fs-5 link-offset-2 link-offset-3-hover link-underline link-underline-opacity-0 link-underline-opacity-75-hover"
+                    href="#">
+                    Learn more
+                </a><i class="fa-solid fa-arrow-right"></i></span>
+        </div>
+    </div>
+    <div class="third-page">
+        <div class="third-page-left effect">
+            <img height="400px" width="450px" src="./images/architectural-design-v2.webp" alt="">
+            <div class="third-page-left-content secondChild show ">
+                <div class="third-page-left-content-adv pt-3">
+                    <h6>AI generated art.</h6>
+                    <p>$200 USD in 7 days.</p>
+                </div>
+                <div class="third-page-left-content-adv-btn">
+                    <button style="background-color: #E60278;" type="button"
+                        class="btn fw-bold text-light btn-sm">Discover more <i
+                            class="ps-5 fa-solid fa-chevron-right"></i></button>
+                </div>
+            </div>
+        </div>
+        <div class="third-page-right d-flex">
+            <div class="third-page-right-col-1">
+                <div class="third-page-right-col-1-adv effect">
+                    <img height="200px" width="250px" src="./images/video-production-v2.webp" alt="">
+                    <div
+                        class="third-page-right-col-1-adv-content secondChild show">
+                        <div class="third-page-right-content-adv pt-2">
+                            <h6>Wordpress website.</h6>
+                            <p>$125 USD in 1 day.</p>
+                        </div>
+                        <div class="third-page-left-content-adv-btn">
+                            <button style="background-color: #E60278;" type="button"
+                                class="btn fw-bold text-light btn-sm">Discover more <i
+                                    class="ps-2 fa-solid fa-chevron-right"></i>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+                <div class="third-page-right-col-1-adv effect">
+                    <img height="200px" width="250px" src="./images/ai-generated-image-v3.webp" alt="">
+                    <div
+                        class="third-page-right-content-adv secondChild show">
+                        <div class="third-page-left-content-adv pt-2">
+                            <h6>Packaging design.</h6>
+                            <p>$2500 USD in 30 days.</p>
+                        </div>
+                        <div class="third-page-left-content-adv-btn">
+                            <button style="background-color: #E60278;" type="button"
+                                class="btn fw-bold text-light btn-sm">Discover more <i
+                                    class="ps-3 fa-solid fa-chevron-right"></i>
+                            </button>
+
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+            <div class="third-page-right-col-2">
+                <div class="third-page-right-col-2-adv effect">
+                    <img height="200px" width="250px" src="./images/shopify-website-v2.jpg" alt="">
+                    <div
+                        class="third-page-right-content-adv secondChild show">
+                        <div class="third-page-left-content-adv pt-2">
+                            <h6>Interior 3D model.</h6>
+                            <p>$350 USD in 7 days.</p>
+                        </div>
+                        <div class="third-page-left-content-adv-btn">
+                            <button style="background-color: #E60278;" type="button"
+                                class="btn fw-bold text-light btn-sm">Discover more <i
+                                    class="ps-3 fa-solid fa-chevron-right"></i>
+                            </button>
+                        </div>
+                    </div>
+
+                </div>
+                <div class="third-page-right-col-2-adv effect">
+                    <img height="200px" width="250px" src="./images/seo-expert-v2.webp" alt="">
+                    <div
+                        class="third-page-right-content-adv secondChild show">
+                        <div class="third-page-left-content-adv pt-2">
+                            <h6>Mobile app.</h6>
+                            <p>$21000 USD in 60 days.</p>
+                        </div>
+                        <div class="third-page-left-content-adv-btn">
+                            <button style="background-color: #E60278;" type="button"
+                                class="btn fw-bold text-light btn-sm">Discover more <i
+                                    class="ps-3 fa-solid fa-chevron-right"></i>
+                            </button>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="ninth-page text-light">
+        <div class="first-item mb-5">
+            <h1>Power your organisation's <br> <span style="color: #E60278;">competitive advantage</span></h1>
+        </div>
+        <div class="second-item mb-5">
+            <h3>Freelancer Enterprise</h3>
+            <p class="">Company budget? Get more done for less. Use our workforce of millions to <br> help your
+                business achieve
+                more.</p>
+            <span style="color: #E60278;"><a style="color: #E60278; text-decoration-color: #E60278;"
+                    class="fw-bold  link-offset-2 link-offset-3-hover link-underline link-underline-opacity-0 link-underline-opacity-75-hover"
+                    href="#">
+                    View more
+                </a><i class="fa-solid fa-arrow-right"></i></span>
+        </div>
+        <div class="third-item">
+            <h3>Freelancer API</h3>
+            <p class="">Millions of professionals on demand. Why hire people when you can simply <br> integrate our
+                talented
+                cloud workforce instead?</p>
+            <p style="color: #E60278;"><a style="color: #E60278; text-decoration-color: #E60278;"
+                    class="fw-bold  link-offset-2 link-offset-3-hover link-underline link-underline-opacity-0 link-underline-opacity-75-hover"
+                    href="#">
+                    View more
+                </a><i class="fa-solid fa-arrow-right"></i></p>
+        </div>
+    </div>
+    <div style="background-color:#12151B;" class="tenth-page text-light">
+        <div style="background-color:#12151B;" class="sixth-page d-flex p-5  justify-content-evenly">
+
+            <div class="sixth-page-right1">
+                <ul>
+                    <div class="footer-log mb-3">
+                        <li><img width="40%" src="./images/freelancer-logo-light.svg" alt=""></li>
+                    </div>
+                    <li><i class="fa-solid fa-globe pe-2"></i><a href=""></a>US (International)/ <p class="ps-4">
+                            English
+                        <p></p>
+                    </li>
+                    <li><i class="fa-regular fa-circle-question pe-2"></i><a href="">Help & Support</a< /li>
+                    <li><i class="fa-solid fa-universal-access pe-2"></i><a href="">Accessibility</a></li>
+                </ul>
+            </div>
+            <div class="sixth-page-right1">
+                <ul>
+                    <h6 class="fw-bold">Freelancer</h6>
+                    <li><a href="">website Design</a></li>
+                    <li><a href="">Mobile Apps</a></li>
+                    <li><a href="">Android Apps</a></li>
+                    <li><a href="">iPhone Apps</a></li>
+                    <li><a href="">Software Architecture</a></li>
+                    <li><a href="">Graphic Design</a></li>
+                    <li><a href="">Logo Design</a></li>
+                    <li><a href="">Public Relation</a></li>
+                    <li><a href="">Logistics</a></li>
+                    <li><a href="">Proofreading</a></li>
+                    <li><a href="">Translation</a></li>
+                    <li><a href="">Research</a></li>
+                </ul>
+            </div>
+            <div class="sixth-page-right1">
+                <ul>
+                    <h6 class="fw-bold">About</h6>
+                    <li><a href="">Research Writing</a></li>
+                    <li><a href="">Article Writing</a></li>
+                    <li><a href="">Web Scraping</a></li>
+                    <li><a href="">HTML</a></li>
+                    <li><a href="">CSS</a></li>
+                    <li><a href="">HTML 5</a></li>
+                    <li><a href="">Javascript</a></li>
+                    <li><a href="">Data Processing</a></li>
+                    <li><a href="">Python</a></li>
+                    <li><a href="">Wordpress</a></li>
+                    <li><a href="">Web Search</a></li>
+                    <li><a href="">Finance</a></li>
+                </ul>
+            </div>
+            <div class="sixth-page-right1">
+                <ul>
+                    <h6 class="fw-bold">Terms</h6>
+                    <li><a href="">Legal</a></li>
+                    <li><a href="">Linux</a></li>
+                    <li><a href="">Manufacturing</a></li>
+                    <li><a href="">Data Entry</a></li>
+                    <li><a href="">Content Writing</a></li>
+                    <li><a href="">Marketing</a></li>
+                    <li><a href="">Exel</a></li>
+                    <li><a href="">Ghost Writing</a></li>
+                    <li><a href="">Copywriting</a></li>
+                    <li><a href="">Accounting</a></li>
+                    <li><a href="">MySQL</a></li>
+                    <li><a href="">C++ Programming</a></li>
+                </ul>
+            </div>
+            <div class="sixth-page-right1">
+                <ul>
+                    <h6 class="fw-bold">Patners</h6>
+                    <li><a href="">Banner Design</a></li>
+                    <li><a href="">Illustration</a></li>
+                    <li><a href="">Link Building</a></li>
+                    <li><a href="">C# Programming</a></li>
+                    <li><a href="">PHP</a></li>
+                    <li><a href="">3D Modelling</a></li>
+                    <li><a href="">Photoshop</a></li>
+                    <li><a href="">Technical Writing</a></li>
+                    <li><a href="">Blogging</a></li>
+                    <li><a href="">Internet Marketing</a></li>
+                    <li><a href="">eCommerce</a></li>
+                    <li></li>
+                </ul>
+            </div>
+            <div class="sixth-page-right1"><h6 class="fw-bold">Apps</h6 class="fw-bold">
+                <div class="appstore">
+                    <div class="mb-3 mt-3"><img src="./images/app-store.svg" alt=""></div>
+                    <div>
+                        <img src="./images/google-play.svg" alt="">
+                    </div>
+                </div>            
+            </div>
+        </div>
+        <div class="footer mx-5 p-5 d-flex justify-content-evenly">
+            <div class="footer-first">
+                <h6>72,202,177</h6>
+                <p>Registered Users</p>
+            </div>
+            <div class="footer-second">
+                <h6>23,573,710</h6>
+                <p>Registered Users</p>
+            </div>
+            <div class="footer-third">
+                <p>Freelancer ® is a registered Trademark of Freelancer Technology Pty Limited (ACN 142 189
+                    759)</p>
+                <p>Copyright © 2024 Freelancer Technology Pty Limited (ACN 142 189 759)</p>
+            </div>
+        </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+</body>
+
+</html>

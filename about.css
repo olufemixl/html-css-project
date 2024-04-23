@@ -1,0 +1,67 @@
+.firstP{
+    /* padding: 0 4%; */
+    background-image:url("./images/overview-banner-c5bd0b23.webp") ;
+    background-size: cover;
+    background-position: center;
+    height: 100%;
+}
+.firstP-text{
+    padding: 10% 0;
+    text-align: center;
+    height: 100%;
+}
+.thirdPage img{
+    height: 50vh;
+    width: 100vw;
+}
+.about-FourthP{
+    text-align: center;
+    padding: 5% 0;
+}
+.about-fifthP{
+    padding: 5%;
+    border-bottom: 1px solid grey;
+}
+.about-fifthP-text{
+    padding-top: 10%;
+}
+.about-fifthP-text button{
+    border-radius: none !important;
+}
+.about-sixthPage{
+    padding: 5%;
+}
+.about-sixthP-left-second small{
+font-weight: 500;
+}
+.about-sixthP-right ul{
+list-style: none;
+}
+.about-sixthP-right li{
+    font-size: 14px;
+    font-weight: 400;
+}
+@media only screen and (max-width: 800px) {
+    .firstP-text{
+        white-space: wrap;
+        
+    }
+    .firstP-text h1{
+        font-size: 20px;
+    }
+    .secondP-left img{
+        width: 300px;
+    }
+    .secondP-right p {
+        font-weight: lighter;
+    }
+    .thirdPage img{
+       height: 30vh;
+    }
+    .about-fifthP-img img {
+        width: 100%;
+    }
+    .hidden{
+        display: none;
+    }
+}

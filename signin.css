@@ -1,0 +1,54 @@
+.container-body{
+    display: flex;
+    justify-content: center;
+}
+.form-container{
+    width: 30%;
+    height: 90vh;
+    border: 0.1px solid rgb(237, 236, 236);
+    border-radius: 5px;
+    box-shadow: 1px 1px 1px 1px rgb(247, 244, 244);
+}
+.fb-btn{
+    background-color: #4267B2;
+    font-weight: 700;
+    margin-top: 30px;
+    border: none;
+    padding: 10px;
+    height:40% ;
+    width: 70%;
+}
+button a{
+    text-decoration: none;
+    color: white;
+}
+button i{
+    padding-right: 10px;
+    color: white;
+}
+.line{
+    margin: 5%;
+}
+.line p{
+    width: 100%; 
+    text-align: center; 
+    border-bottom: 1px solid #d7cbcb; 
+    line-height: 0.1em;
+    margin: 10px 0 20px; 
+}
+.line p > span{
+    font-size: 12px;
+    background:#fff; 
+    padding:0 10px; 
+}
+.signup{
+    border-top: 1px solid #d7cbcb;
+}
+@media only screen and (max-width: 800px) {
+    .container-body{
+        justify-content: start;
+    }
+    .form-container{
+        width: 100%;
+    }
+}
